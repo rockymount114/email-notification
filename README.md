@@ -40,7 +40,7 @@ EMAIL_PASSWORD="your_secure_password"
 
 | Variable | Description |
 |----------|-------------|
-| `RECIPIENT` | The email address that will receive the alerts. |
+| `RECIPIENT` | The email address(es) that will receive the alerts. For multiple recipients, use a comma-separated list (e.g., `user1@example.com,user2@example.com`). |
 | `EMAIL_ADDRESS` | The 'from' email address and SMTP authentication username. |
 | `SMTP_SERVER` | The hostname of your SMTP server. |
 | `SMTP_PORT` | The port for your SMTP server (e.g., 587 for TLS). |

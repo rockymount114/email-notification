@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load the environment variables
-#source /home/li/.env
+
 source "$(dirname "$0")/.env"
 
 # 1. Check Service and Port

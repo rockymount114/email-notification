@@ -34,6 +34,8 @@ EMAIL_ADDRESS="alerts@example.com"
 SMTP_SERVER="smtp.example.com"
 SMTP_PORT="587"
 EMAIL_PASSWORD="your_secure_password"
+SERVICE_NAME="mssql-server" # Optional: systemctl service name to monitor
+CONTAINER_NAME="sql_container" # Optional: Docker container name to monitor
 ```
 
 ### Environment Variables
@@ -45,6 +47,8 @@ EMAIL_PASSWORD="your_secure_password"
 | `SMTP_SERVER` | The hostname of your SMTP server. |
 | `SMTP_PORT` | The port for your SMTP server (e.g., 587 for TLS). |
 | `EMAIL_PASSWORD`| The password for SMTP authentication. |
+| `SERVICE_NAME` | (Optional) The name of the `systemctl` service to monitor. |
+| `CONTAINER_NAME`| (Optional) The name of the Docker container to monitor. |
 
 ## Usage
 

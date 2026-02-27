@@ -16,6 +16,14 @@ A simple shell script to monitor the status of a Microsoft SQL Server instance a
 - A running MS SQL Server (`mssql-server`) instance.
 - Access to an SMTP server for sending emails.
 
+## Installation
+
+To download the script directly from the repository:
+
+```bash
+curl -O https://raw.githubusercontent.com/rockymount114/email-notification/main/sql_monitor.sh
+```
+
 ## Configuration
 
 Create a `.env` file in the same directory as the script with the following variables:

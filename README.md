@@ -51,6 +51,7 @@ EMAIL_PASSWORD="your_secure_password"
 ### 1. Make the script executable
 
 ```bash
+chmod 600 .env
 chmod +x sql_monitor.sh
 ```
 

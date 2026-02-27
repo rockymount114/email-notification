@@ -65,7 +65,7 @@ chmod +x sql_monitor.sh
 To automate monitoring (e.g., every 5 minutes), add a crontab entry:
 
 ```bash
-*/5 * * * * /path/to/email-notification/sql_monitor.sh > /dev/null 2>&1
+echo "*/5 * * * * $(pwd)/sql_monitor.sh > /dev/null 2>&1"
 ```
 
 ## How it Works
